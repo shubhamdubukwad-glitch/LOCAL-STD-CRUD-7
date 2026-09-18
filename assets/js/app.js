@@ -44,7 +44,7 @@ const stdcontainer = document.getElementById('stdcontainer');
 
 //raed-std //
 
-let stdArr = JSON.parse(localStorage.getItem('stdArr'))
+let stdArr = JSON.parse(localStorage.getItem('stdArr'))||[]
 
 function readstd(eve) {
     let result = ``;
